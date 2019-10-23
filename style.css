@@ -16,6 +16,11 @@ p {
     flex-direction: column;
 }
 
+img {
+    height: 50px;
+    width: 50px;
+}
+
 
 
 
@@ -35,6 +40,17 @@ p {
 
     .navparagraph {
         font-weight: 300;
+    }
+
+    article {
+        width: 80%;
+    }
+
+    .articlewrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
 }
