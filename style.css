@@ -30,11 +30,13 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: rgba(117, 196, 247, 0.5)
     }
 
     .navparagraph {
         font-weight: 300;
     }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

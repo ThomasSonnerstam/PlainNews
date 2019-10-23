@@ -16,7 +16,7 @@
     <main class="content-wrapper">
         <nav>
             <h1>Plane News</h1>
-            <p class="navparagraph">The latest reports on planes for you aviator fans!</p>
+            <p class="navparagraph">- The latest reports on planes for all you aviator fans!</p>
         </nav>
 
         <section>
