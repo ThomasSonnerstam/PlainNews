@@ -10,7 +10,6 @@ function randomLike(): int
 }
 
 
-// function compareDate($a, $b)
-// {
-//     return strtotime($b["articles"][0]["published"]) - strtotime($a["articles"][0]["published"]);
-// }
+usort($articles, function ($a, $b) {
+    return $a["published"] <=> $b["published"];
+});

@@ -2,7 +2,6 @@
 
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
-// usort($authors["articles"][0], "compateDate");
 
 ?>
 
@@ -29,27 +28,25 @@ require __DIR__ . '/functions.php';
 
         <section class="articlewrapper">
 
-            <?php foreach ($authors as $author) : ?>
-                <?php for ($i = 0; $i <= 1; $i++) : ?>
-                    <?php
-                            $title = $author["articles"][$i]["title"];
-                            $image = $author["articles"][$i]["image"];
-                            $content = $author["articles"][$i]["content"];
-                            $authorname = $author["name"];
-                            $authorimage = $author["authorimage"];
-                            $published = $author["articles"][$i]["published"];
-                            $likes = $author["articles"][$i]["likes"];
-                            ?>
-                    <article>
-                        <h3><?php echo $title; ?></h3>
-                        <p>Published: <?php echo $published; ?></p>
-                        <img class="articleimage" src="<?php echo $image; ?>" alt="Image of a plane">
-                        <p><?php echo nl2br($content); ?></p>
-                        <p class="authorname"><?php echo $authorname; ?></p>
-                        <img class="authorimage" src="<?php echo $authorimage; ?>" alt="Image of <?php echo $authorname; ?>">
-                        <p><img class="likeicon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
-                    </article>
-                <?php endfor; ?>
+            <?php foreach ($articles as $article) : ?>
+                <?php
+                    $title = $article["title"];
+                    $image = $article["image"];
+                    $content = $article["content"];
+                    $authorname = $authors[$article['authorId']]['name'];
+                    $authorimage = $authors[$article['authorId']]['authorimage'];
+                    $published = $article["published"];
+                    $likes = $article["likes"];
+                    ?>
+                <article>
+                    <h3><?php echo $title; ?></h3>
+                    <p>Published: <?php echo $published; ?></p>
+                    <img class="articleimage" src="<?php echo $image; ?>" alt="Image of a plane">
+                    <p><?php echo nl2br($content); ?></p>
+                    <p class="authorname"><?php echo $authorname; ?></p>
+                    <img class="authorimage" src="<?php echo $authorimage; ?>" alt="Image of <?php echo $authorname; ?>">
+                    <p><img class="likeicon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
+                </article>
             <?php endforeach; ?>
 
         </section>
