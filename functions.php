@@ -9,7 +9,8 @@ function randomLike(): int
     return rand(532, 13273);
 }
 
+// Sorts the array by published date
 
 usort($articles, function ($a, $b) {
-    return $a["published"] <=> $b["published"];
+    return $b["published"] <=> $a["published"];
 });
