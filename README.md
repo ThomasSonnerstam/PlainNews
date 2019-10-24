@@ -3,7 +3,7 @@
 My first PHP assignment during my web developer programme at Yrgo, Gothenburg.
 <br>
 
-<img src="https://media.giphy.com/media/GqtNlBsWoEXDy/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/WTmXCoCf60MtW/giphy.gif" width="100%">
 
 ## BUILT WITH:
 
