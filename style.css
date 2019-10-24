@@ -1,290 +1,294 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-    min-height: 100vh;
-    background-color: rgb(32, 32, 32);
+	min-height: 100vh;
+	background-color: rgb(32, 32, 32);
 }
 
 p {
-    font-family: "Roboto";
+	font-family: "Roboto";
 }
 
 nav {
-    background-color: rgb(32, 32, 32);
+	background-color: rgb(32, 32, 32);
 }
 
 .content-wrapper {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 article {
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #e4e4e4;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #e4e4e4;
 }
 
 img {
-    height: 50px;
-    width: 50px;
+	height: 50px;
+	width: 50px;
 }
 
 h1 {
-    font-family: "Roboto";
-    margin-bottom: 0;
-    color: white;
+	font-family: "Roboto";
+	margin-bottom: 0;
+	color: white;
 }
 
 .nav-paragraph {
-    color: white;
+	color: white;
 }
 
 h3 {
-    font-family: "Roboto";
-    text-transform: uppercase;
+	font-family: "Roboto";
+	text-transform: uppercase;
 }
 
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
 
-    .nav-paragraph {
-        font-weight: 300;
-    }
+	.nav-paragraph {
+		font-weight: 300;
+	}
 
-    article {
-        width: 80%;
-        border-bottom: 1px solid black;
-    }
+	article {
+		width: 80%;
+		border-bottom: 1px solid black;
+	}
 
-    .article-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	.article-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-    }
+	}
 
-    .article-image {
-        width: 100%;
-        height: auto;
-    }
+	.article-image {
+		width: 100%;
+		height: auto;
+	}
 
-    .like-icon {
-        width: 25px;
-        height: auto;
-    }
+	.like-icon {
+		width: 25px;
+		height: auto;
+	}
 
-    .author-name {
-        font-style: italic;
-        margin-bottom: 0;
-        margin-top: 50px;
-    }
+	.author-name {
+		font-style: italic;
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
 
-    .author-image {
-        width: 100px;
-        height: auto;
-    }
+	.author-image {
+		width: 100px;
+		height: auto;
+	}
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
 
-    .nav-paragraph {
-        font-weight: 300;
-    }
+	.nav-paragraph {
+		font-weight: 300;
+	}
 
-    article {
-        width: 80%;
-        border-bottom: 1px solid black;
-    }
+	article {
+		width: 80%;
+		border-bottom: 1px solid black;
+	}
 
-    .article-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	.article-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-    }
+	}
 
-    .article-image {
-        width: 100%;
-        height: auto;
-    }
+	.article-image {
+		width: 100%;
+		height: auto;
+	}
 
-    .like-icon {
-        width: 25px;
-        height: auto;
-    }
+	.like-icon {
+		width: 25px;
+		height: auto;
+	}
 
-    .author-name {
-        font-style: italic;
-        margin-bottom: 0;
-        margin-top: 50px;
-    }
+	.author-name {
+		font-style: italic;
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
 
-    .author-image {
-        width: 100px;
-        height: auto;
-    }
+	.author-image {
+		width: 100px;
+		height: auto;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
 
-    .nav-paragraph {
-        font-weight: 300;
-    }
+	.nav-paragraph {
+		font-weight: 300;
+	}
 
-    article {
-        width: 80%;
-        border-bottom: 1px solid black;
-    }
+	article {
+		width: 80%;
+		border-bottom: 1px solid black;
+	}
 
-    .article-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	.article-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-    }
+	}
 
-    .article-image {
-        width: 100%;
-        height: auto;
-    }
+	.article-image {
+		width: 100%;
+		height: auto;
+	}
 
-    .like-icon {
-        width: 25px;
-        height: auto;
-    }
+	.like-icon {
+		width: 25px;
+		height: auto;
+	}
 
-    .author-name {
-        font-style: italic;
-        margin-bottom: 0;
-        margin-top: 50px;
-    }
+	.author-name {
+		font-style: italic;
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
 
-    .author-image {
-        width: 100px;
-        height: auto;
-    }
+	.author-image {
+		width: 100px;
+		height: auto;
+	}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
 
-    .nav-paragraph {
-        font-weight: 300;
-    }
+	.nav-paragraph {
+		font-weight: 300;
+	}
 
-    article {
-        width: 70%;
-        border-bottom: 1px solid black;
-    }
+	article {
+		width: 70%;
+		border-bottom: 1px solid black;
+	}
 
-    .article-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	.article-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-    }
+	}
 
-    .article-image {
-        width: 100%;
-        height: auto;
-    }
+	.article-image {
+		width: 100%;
+		height: auto;
+	}
 
-    .like-icon {
-        width: 25px;
-        height: auto;
-    }
+	.like-icon {
+		width: 25px;
+		height: auto;
+	}
 
-    .author-name {
-        font-style: italic;
-        margin-bottom: 0;
-        margin-top: 50px;
-    }
+	.author-name {
+		font-style: italic;
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
 
-    .author-image {
-        width: 130px;
-        height: auto;
-    }
+	.author-image {
+		width: 130px;
+		height: auto;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
 
-    .nav-paragraph {
-        font-weight: 300;
-    }
+	.nav-paragraph {
+		font-weight: 300;
+	}
 
-    article {
-        width: 70%;
-        border-bottom: 1px solid black;
-    }
+	article {
+		width: 70%;
+		border-bottom: 1px solid black;
+	}
 
-    .article-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	.article-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-    }
+	}
 
-    .article-image {
-        width: 60%;
-        height: auto;
-    }
+	.article-image {
+		width: 60%;
+		height: auto;
+	}
 
-    .like-icon {
-        width: 25px;
-        height: auto;
-    }
+	.like-icon {
+		width: 25px;
+		height: auto;
+	}
 
-    .author-name {
-        font-style: italic;
-        margin-bottom: 0;
-        margin-top: 50px;
-    }
+	.author-name {
+		font-style: italic;
+		margin-bottom: 0;
+		margin-top: 50px;
+	}
 
-    .author-image {
-        width: 130px;
-        height: auto;
-    }
+	.author-image {
+		width: 130px;
+		height: auto;
+	}
 }
