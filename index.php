@@ -3,6 +3,12 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
+// Sorts the $articles array by the published date.
+
+usort($articles, function (array $a, array $b): int {
+    return strtotime($b["published"]) - strtotime($a["published"]);
+});
+
 ?>
 
 <!DOCTYPE html>
@@ -23,10 +29,10 @@ require __DIR__ . '/functions.php';
     <main class="content-wrapper">
         <nav>
             <h1>Plane News</h1>
-            <p class="navparagraph">- The latest reports on planes for all you aviator fans!</p>
+            <p class="nav-paragraph">- The latest reports on planes for all you aviator fans!</p>
         </nav>
 
-        <section class="articlewrapper">
+        <section class="article-wrapper">
 
             <?php foreach ($articles as $article) : ?>
                 <?php
@@ -34,25 +40,23 @@ require __DIR__ . '/functions.php';
                     $image = $article["image"];
                     $content = $article["content"];
                     $authorname = $authors[$article['authorId']]['name'];
-                    $authorimage = $authors[$article['authorId']]['authorimage'];
+                    $authorImage = $authors[$article['authorId']]['authorImage'];
                     $published = $article["published"];
                     $likes = $article["likes"];
                     ?>
                 <article>
                     <h3><?php echo $title; ?></h3>
                     <p>Published: <?php echo $published; ?></p>
-                    <img class="articleimage" src="<?php echo $image; ?>" alt="Image of a plane">
+                    <img class="article-image" src="<?php echo $image; ?>" alt="Image of a plane">
                     <p><?php echo nl2br($content); ?></p>
-                    <p class="authorname"><?php echo $authorname; ?></p>
-                    <img class="authorimage" src="<?php echo $authorimage; ?>" alt="Image of <?php echo $authorname; ?>">
-                    <p><img class="likeicon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
+                    <p class="author-name"><?php echo $authorname; ?></p>
+                    <img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
+                    <p><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
                 </article>
             <?php endforeach; ?>
 
         </section>
     </main>
-
-
 </body>
 
 </html>

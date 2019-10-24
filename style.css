@@ -1,15 +1,26 @@
 body {
     min-height: 100vh;
-    background-color: rgba(243, 245, 246, 1);
+    background-color: rgb(32, 32, 32);
 }
 
 p {
     font-family: "Roboto";
 }
 
+nav {
+    background-color: rgb(32, 32, 32);
+}
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+article {
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #e4e4e4;
 }
 
 img {
@@ -20,12 +31,16 @@ img {
 h1 {
     font-family: "Roboto";
     margin-bottom: 0;
+    color: white;
+}
+
+.nav-paragraph {
+    color: white;
 }
 
 h3 {
     font-family: "Roboto";
     text-transform: uppercase;
-    /* text-align: center; */
 }
 
 
@@ -35,12 +50,11 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(117, 196, 247, 0.5);
-        box-shadow: 0 7px 10px rgba(117, 196, 247, 0.5);
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
-    .navparagraph {
+    .nav-paragraph {
         font-weight: 300;
     }
 
@@ -49,30 +63,30 @@ h3 {
         border-bottom: 1px solid black;
     }
 
-    .articlewrapper {
+    .article-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .articleimage {
+    .article-image {
         width: 100%;
         height: auto;
     }
 
-    .likeicon {
+    .like-icon {
         width: 25px;
         height: auto;
     }
 
-    .authorname {
+    .author-name {
         font-style: italic;
         margin-bottom: 0;
         margin-top: 50px;
     }
 
-    .authorimage {
+    .author-image {
         width: 100px;
         height: auto;
     }
@@ -86,12 +100,11 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(117, 196, 247, 0.5);
-        box-shadow: 0 7px 10px rgba(117, 196, 247, 0.5);
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
-    .navparagraph {
+    .nav-paragraph {
         font-weight: 300;
     }
 
@@ -100,30 +113,30 @@ h3 {
         border-bottom: 1px solid black;
     }
 
-    .articlewrapper {
+    .article-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .articleimage {
+    .article-image {
         width: 100%;
         height: auto;
     }
 
-    .likeicon {
+    .like-icon {
         width: 25px;
         height: auto;
     }
 
-    .authorname {
+    .author-name {
         font-style: italic;
         margin-bottom: 0;
         margin-top: 50px;
     }
 
-    .authorimage {
+    .author-image {
         width: 100px;
         height: auto;
     }
@@ -136,12 +149,11 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(117, 196, 247, 0.5);
-        box-shadow: 0 7px 10px rgba(117, 196, 247, 0.5);
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
-    .navparagraph {
+    .nav-paragraph {
         font-weight: 300;
     }
 
@@ -150,30 +162,30 @@ h3 {
         border-bottom: 1px solid black;
     }
 
-    .articlewrapper {
+    .article-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .articleimage {
+    .article-image {
         width: 100%;
         height: auto;
     }
 
-    .likeicon {
+    .like-icon {
         width: 25px;
         height: auto;
     }
 
-    .authorname {
+    .author-name {
         font-style: italic;
         margin-bottom: 0;
         margin-top: 50px;
     }
 
-    .authorimage {
+    .author-image {
         width: 100px;
         height: auto;
     }
@@ -186,12 +198,11 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(117, 196, 247, 0.5);
-        box-shadow: 0 7px 10px rgba(117, 196, 247, 0.5);
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
-    .navparagraph {
+    .nav-paragraph {
         font-weight: 300;
     }
 
@@ -200,30 +211,30 @@ h3 {
         border-bottom: 1px solid black;
     }
 
-    .articlewrapper {
+    .article-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .articleimage {
+    .article-image {
         width: 100%;
         height: auto;
     }
 
-    .likeicon {
+    .like-icon {
         width: 25px;
         height: auto;
     }
 
-    .authorname {
+    .author-name {
         font-style: italic;
         margin-bottom: 0;
         margin-top: 50px;
     }
 
-    .authorimage {
+    .author-image {
         width: 130px;
         height: auto;
     }
@@ -236,12 +247,11 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(117, 196, 247, 0.5);
-        box-shadow: 0 7px 10px rgba(117, 196, 247, 0.5);
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+        margin-top: 25px;
     }
 
-    .navparagraph {
+    .nav-paragraph {
         font-weight: 300;
     }
 
@@ -250,30 +260,30 @@ h3 {
         border-bottom: 1px solid black;
     }
 
-    .articlewrapper {
+    .article-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .articleimage {
+    .article-image {
         width: 60%;
         height: auto;
     }
 
-    .likeicon {
+    .like-icon {
         width: 25px;
         height: auto;
     }
 
-    .authorname {
+    .author-name {
         font-style: italic;
         margin-bottom: 0;
         margin-top: 50px;
     }
 
-    .authorimage {
+    .author-image {
         width: 130px;
         height: auto;
     }

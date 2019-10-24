@@ -127,26 +127,26 @@ $articles = [
 $authors = [
     101 => [
         "name" => "Michael Scott",
-        "authorimage" => "/Images/michaelscott.jpeg"
+        "authorImage" => "/Images/michaelscott.jpeg"
     ],
 
     202 => [
         "name" => "Jim Halpert",
-        "authorimage" => "/Images/jimhalpert.jpeg"
+        "authorImage" => "/Images/jimhalpert.jpeg"
     ],
 
     303 => [
         "name" => "Dwight Schrute",
-        "authorimage" => "/Images/dwightschrute.jpeg"
+        "authorImage" => "/Images/dwightschrute.jpeg"
     ],
 
     404 => [
         "name" => "Pam Beesly",
-        "authorimage" => "/Images/pambeesly.jpeg"
+        "authorImage" => "/Images/pambeesly.jpeg"
     ],
 
     505 => [
         "name" => "Kevin Malone",
-        "authorimage" => "/Images/kevinmalone.jpeg"
+        "authorImage" => "/Images/kevinmalone.jpeg"
     ]
 ];
