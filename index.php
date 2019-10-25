@@ -31,6 +31,7 @@ usort($articles, "sortDate");
 		<section class="article-wrapper">
 
 			<?php foreach ($articles as $i => $article) : ?>
+
 				<?php
 					$title = $article["title"];
 					$image = $article["image"];
@@ -40,16 +41,17 @@ usort($articles, "sortDate");
 					$published = $article["published"];
 					$likes = $article["likes"];
 					?>
+
 				<article id="<?php echo $i; ?>">
 					<h3><?php echo $title; ?></h3>
-					<p>Published: <?php echo $published; ?></p>
+					<p class="published-paragraph">Published: <?php echo $published; ?></p>
 					<img class="article-image" src="<?php echo $image; ?>" alt="Image of a plane">
 					<p><?php echo nl2br($content); ?></p>
 					<div class="author-arrow-wrapper">
 						<div class="author-wrapper">
 							<p class="author-name"><?php echo $authorname; ?></p>
 							<img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
-							<p><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
+							<p class="like-paragraph"><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
 						</div>
 						<a class="arrows" href="#<?php echo countArticles($articles, $i); ?>">
 							<img id="<?php echo $i; ?>" class="down-arrow <?php echoOnLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="" />
