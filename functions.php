@@ -13,7 +13,7 @@ function randomLike(): int
 
 function sortDate(array $a, array $b): int
 {
-	return strtotime($b["published"]) - strtotime($a["published"]);
+	return strtotime($b["published"]) <=> strtotime($a["published"]);
 };
 
 // A function that counts how many articles there are starting at 1 instead of 0.
