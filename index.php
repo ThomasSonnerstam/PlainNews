@@ -2,12 +2,7 @@
 
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
-
-// Sorts the $articles array by the published date.
-
-usort($articles, function (array $a, array $b): int {
-	return strtotime($b["published"]) - strtotime($a["published"]);
-});
+usort($articles, "sortDate");
 
 ?>
 
@@ -32,9 +27,6 @@ usort($articles, function (array $a, array $b): int {
 			<p class="nav-paragraph">- The latest reports on planes for all you aviator fans!</p>
 		</nav>
 
-		<p>
-			<a class="scroll-to-top" href="#navtop">Back to the top!</a>
-		</p>
 
 		<section class="article-wrapper">
 
@@ -53,9 +45,16 @@ usort($articles, function (array $a, array $b): int {
 					<p>Published: <?php echo $published; ?></p>
 					<img class="article-image" src="<?php echo $image; ?>" alt="Image of a plane">
 					<p><?php echo nl2br($content); ?></p>
-					<p class="author-name"><?php echo $authorname; ?></p>
-					<img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
-					<p><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
+					<div class="author-arrow-wrapper">
+						<div class="author-wrapper">
+							<p class="author-name"><?php echo $authorname; ?></p>
+							<img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
+							<p><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
+						</div>
+						<a class="arrows" href="#<?php echo countArticles($articles, $i); ?>">
+							<img id="<?php echo $i; ?>" class="down-arrow <?php echo locateLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="" />
+						</a>
+					</div>
 				</article>
 			<?php endforeach; ?>
 
