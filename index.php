@@ -58,6 +58,7 @@ usort($articles, "sortDate");
 						</a>
 					</div>
 				</article>
+
 			<?php endforeach; ?>
 
 		</section>

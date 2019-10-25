@@ -172,7 +172,7 @@ p.author-name {
 	}
 
 	.article-image {
-		width: 100%;
+		width: 90%;
 		height: auto;
 	}
 
@@ -221,7 +221,7 @@ p.author-name {
 	}
 
 	.article-image {
-		width: 100%;
+		width: 80%;
 		height: auto;
 	}
 
@@ -270,8 +270,8 @@ p.author-name {
 	}
 
 	.article-image {
-		width: 90px;
-		height: 90px;
+		width: 80%;
+		height: auto;
 	}
 
 	.like-icon {
@@ -319,7 +319,7 @@ p.author-name {
 	}
 
 	.article-image {
-		width: 60%;
+		width: 80%;
 		height: auto;
 	}
 
