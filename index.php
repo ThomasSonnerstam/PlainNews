@@ -22,7 +22,7 @@ usort($articles, "sortDate");
 
 <body>
 	<main class="content-wrapper">
-		<nav id="navtop">
+		<nav>
 			<h1>Plane News</h1>
 			<p class="nav-paragraph">- The latest reports on planes for all you aviator fans!</p>
 		</nav>
@@ -46,7 +46,7 @@ usort($articles, "sortDate");
 					<h3><?php echo $title; ?></h3>
 					<p class="published-paragraph">Published: <?php echo $published; ?></p>
 					<img class="article-image" src="<?php echo $image; ?>" alt="Image of a plane">
-					<p><?php echo nl2br($content); ?></p>
+					<p class="content-paragraph"><?php echo nl2br($content); ?></p>
 					<div class="author-arrow-wrapper">
 						<div class="author-wrapper">
 							<p class="author-name"><?php echo $authorname; ?></p>
@@ -54,7 +54,7 @@ usort($articles, "sortDate");
 							<p class="like-paragraph"><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
 						</div>
 						<a class="arrows" href="#<?php echo countArticles($articles, $i); ?>">
-							<img id="<?php echo $i; ?>" class="down-arrow <?php echoOnLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="" />
+							<img id="<?php echo $i; ?>" class="down-arrow <?php echoOnLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="Navigation arrow" />
 						</a>
 					</div>
 				</article>

@@ -19,7 +19,7 @@ function sortDate(array $a, array $b): int
 // A function that counts how many articles there are starting at 1 instead of 0.
 // The -1 is to limit the articles to the existing 10 articles instead of counting up to 11.
 
-function countArticles($articles, $i)
+function countArticles(array $articles, int $i): int
 {
 	if (count($articles) - 1 === $i) {
 		return 0;
@@ -31,7 +31,7 @@ function countArticles($articles, $i)
 // Prints a unique class name to the last article so that the last navigation
 // arrow can be formatted accordingly.
 
-function echoOnLastArticle($articles, $i, $stringToEcho)
+function echoOnLastArticle(array $articles, int $i, string $stringToEcho): void
 {
 	if (count($articles) - 1 === $i) {
 		echo $stringToEcho;
