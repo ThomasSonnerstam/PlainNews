@@ -1,7 +1,7 @@
 /* FONTS  */
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
 
 /* BASE STYLES  */
 
@@ -50,6 +50,12 @@ h3 {
 	text-transform: uppercase;
 }
 
+p.current-date {
+	font-family: "Roboto";
+	color: white;
+	font-weight: 100;
+}
+
 p {
 	font-family: "Playfair Display";
 }
@@ -59,6 +65,7 @@ p.content-paragraph {
 }
 
 p.like-paragraph {
+	font-family: "Roboto";
 	text-align: center;
 	margin-top: 2px;
 }

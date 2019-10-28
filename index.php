@@ -24,6 +24,7 @@ usort($articles, "sortDate");
 		<nav>
 			<h1>Plane News</h1>
 			<p class="nav-paragraph">- The latest reports on planes for all you aviator fans!</p>
+			<p class="current-date"></p>
 		</nav>
 
 
@@ -62,6 +63,8 @@ usort($articles, "sortDate");
 
 		</section>
 	</main>
+
+	<script src="script.js"></script>
 </body>
 
 </html>
