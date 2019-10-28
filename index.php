@@ -46,16 +46,16 @@ usort($articles, "sortDate");
 				<article id="<?php echo $i; ?>">
 					<h3><?php echo $title; ?></h3>
 					<p class="published-paragraph">Published: <?php echo $published; ?></p>
-					<img class="article-image" src="<?php echo $image; ?>" alt="Image of a plane">
+					<img class="article-image" loading="lazy" src="<?php echo $image; ?>" alt="Image of a plane">
 					<p class="content-paragraph"><?php echo nl2br($content); ?></p>
 					<div class="author-arrow-wrapper">
 						<div class="author-wrapper">
 							<p class="author-name"><?php echo $authorName; ?></p>
-							<img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorName; ?>">
+							<img class="author-image" loading="lazy" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorName; ?>">
 							<p class="like-paragraph"><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
 						</div>
 						<a class="arrows" href="#<?php echo countArticles($articles, $i); ?>">
-							<img id="<?php echo $i; ?>" class="down-arrow <?php echoOnLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="Navigation arrow" />
+							<img id="<?php echo $i; ?>" loading="lazy" class="down-arrow <?php echoOnLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="Navigation arrow" />
 						</a>
 					</div>
 				</article>
