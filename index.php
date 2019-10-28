@@ -21,6 +21,7 @@ usort($articles, "sortDate");
 
 <body>
 	<main class="content-wrapper">
+
 		<nav>
 			<p class="current-date"></p>
 			<h1>Plane News</h1>
