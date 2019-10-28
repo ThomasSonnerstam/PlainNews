@@ -56,7 +56,7 @@ $articles = [
 	],
 
 	[
-		"title" => "THESE ARE THE WORLD'S SAFEST AIRCRAFT",
+		"title" => "THESE ARE THE WORLD'S SAFEST AIRCRAFTS",
 		"image" => "/Images/airplane5.jpg",
 		"content" => "Following last Sunday's Ethiopian Airlines crash, the safety of the modern Boeing 737 MAX aircraft has been brought into question.\n
         After the crash, which killed all 157 people onboard, the entire fleet of 737 MAXs have been grounded.\n

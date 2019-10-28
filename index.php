@@ -16,7 +16,6 @@ usort($articles, "sortDate");
 	<title>Plain News</title>
 	<link rel="stylesheet" href="https://unpkg.com/sanitize.css@11.0.0/sanitize.css">
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,700i&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="/Images/newspapericon.png" type="image/x-icon">
 </head>
 
@@ -36,7 +35,7 @@ usort($articles, "sortDate");
 					$title = $article["title"];
 					$image = $article["image"];
 					$content = $article["content"];
-					$authorname = $authors[$article['authorId']]['name'];
+					$authorName = $authors[$article['authorId']]['name'];
 					$authorImage = $authors[$article['authorId']]['authorImage'];
 					$published = $article["published"];
 					$likes = $article["likes"];
@@ -49,8 +48,8 @@ usort($articles, "sortDate");
 					<p class="content-paragraph"><?php echo nl2br($content); ?></p>
 					<div class="author-arrow-wrapper">
 						<div class="author-wrapper">
-							<p class="author-name"><?php echo $authorname; ?></p>
-							<img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
+							<p class="author-name"><?php echo $authorName; ?></p>
+							<img class="author-image" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorName; ?>">
 							<p class="like-paragraph"><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
 						</div>
 						<a class="arrows" href="#<?php echo countArticles($articles, $i); ?>">
