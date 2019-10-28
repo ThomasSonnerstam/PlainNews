@@ -10,6 +10,7 @@ My first PHP assignment during my web developer programme at Yrgo, Gothenburg.
 - PHP
 - HTML
 - CSS
+- JavaScript
 - Love and nurture
 
 

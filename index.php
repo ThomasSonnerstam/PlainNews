@@ -22,9 +22,9 @@ usort($articles, "sortDate");
 <body>
 	<main class="content-wrapper">
 		<nav>
+			<p class="current-date"></p>
 			<h1>Plane News</h1>
 			<p class="nav-paragraph">- The latest reports on planes for all you aviator fans!</p>
-			<p class="current-date"></p>
 		</nav>
 
 

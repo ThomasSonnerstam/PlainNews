@@ -16,6 +16,7 @@ body {
 
 nav {
 	background-color: rgb(32, 32, 32);
+	margin-top: 0;
 }
 
 .author-arrow-wrapper {
@@ -54,6 +55,9 @@ p.current-date {
 	font-family: "Roboto";
 	color: white;
 	font-weight: 100;
+	align-self: flex-end;
+	margin-right: 20px;
+	margin-top: 0;
 }
 
 p {
