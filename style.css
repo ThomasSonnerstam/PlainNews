@@ -14,6 +14,10 @@ body {
 	background-color: rgb(32, 32, 32);
 }
 
+main {
+	display: flex;
+}
+
 nav {
 	background-color: rgb(32, 32, 32);
 	margin: 0;
@@ -56,7 +60,7 @@ p.currentDate {
 	color: white;
 	font-weight: 100;
 	align-self: flex-end;
-	margin: 20px 20px 0 0;
+	margin: 20px 0 0 0;
 }
 
 p {
@@ -97,7 +101,7 @@ p.authorName {
 	margin-right: 30px;
 }
 
-.down-arrow {
+.downArrow {
 	width: 50px;
 	height: 50px;
 }
@@ -107,7 +111,7 @@ p.authorName {
 	border-radius: 100%;
 }
 
-.last-article {
+.lastArticle {
 	transform: rotate(180deg);
 }
 
@@ -117,6 +121,8 @@ p.authorName {
 @media screen and (max-width: 600px) {
 
 	nav {
+		width: 80%;
+		align-self: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -162,6 +168,8 @@ p.authorName {
 @media only screen and (min-width: 600px) {
 
 	nav {
+		width: 80%;
+		align-self: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -207,6 +215,8 @@ p.authorName {
 @media only screen and (min-width: 768px) {
 
 	nav {
+		width: 80%;
+		align-self: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -252,6 +262,8 @@ p.authorName {
 @media only screen and (min-width: 992px) {
 
 	nav {
+		width: 70%;
+		align-self: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -297,6 +309,8 @@ p.authorName {
 @media only screen and (min-width: 1200px) {
 
 	nav {
+		width: 70%;
+		align-self: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

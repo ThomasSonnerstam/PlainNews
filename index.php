@@ -55,7 +55,7 @@ usort($articles, "sortDate");
 							<p class="likeParagraph"><img class="like-icon" src="/Images/likeicon.png" alt=""> <?php echo randomLike(); ?></p>
 						</div>
 						<a class="arrows" href="#<?php echo countArticles($articles, $i); ?>">
-							<img id="<?php echo $i; ?>" loading="lazy" class="down-arrow <?php echoOnLastArticle($articles, $i, 'last-article'); ?>" src="/Images/downarrowicon.png" alt="Navigation arrow" />
+							<img id="<?php echo $i; ?>" loading="lazy" class="downArrow <?php echoOnLastArticle($articles, $i, 'lastArticle'); ?>" src="/Images/downarrowicon.png" alt="Navigation arrow" />
 						</a>
 					</div>
 				</article>
