@@ -30,19 +30,19 @@ This is how the website looks on desktop and on mobile phone.
 
 - Desktop:
 
-<img src="https://imgur.com/EHj6NuJ" width: 100%/>
+<img src="https://i.imgur.com/EHj6NuJ.png" width=100%>
 
 
 - Mobile phone
 
-<img src="https://imgur.com/EHj6NuJ" width: 100%/>
+<img src="https://i.imgur.com/mIgaQqX.png" width=50%/>
 
 ## **CODE REVIEW**
 
 - ~~functions.php - you should add PHP DocBlocker to each function. To use it, type /** on the line above the function.~~
 - ~~README.md - you could add screenshots of desktop and mobile to give a preview of the site.~~
-- README.md - you could also get rid of the gif in the README to make the project look more serious.
-- Since you are using camelcase in both JavaScript and in PHP, it would look better if you'd use it for CSS as well instead of using kebabcase
-- On lines 59, 60 & 152, 153 & 199, 200 & 245, 246 & 291, 292 & 337, 338 you could shorten all these into one line by using "margin: X X X X"
+- ~~README.md - you could also get rid of the gif in the README to make the project look more serious.~~
+- ~~Since you are using camelcase in both JavaScript and in PHP, it would look better if you'd use it for CSS as well instead of using kebabcase~~
+- ~~On lines 59, 60 & 152, 153 & 199, 200 & 245, 246 & 291, 292 & 337, 338 you could shorten all these into one line by using "margin: X X X X"~~
 
 *- Code review by Andreas Lindberg*

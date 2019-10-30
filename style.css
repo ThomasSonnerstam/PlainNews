@@ -19,12 +19,12 @@ nav {
 	margin: 0;
 }
 
-.author-arrow-wrapper {
+.authorArrowWrapper {
 	display: flex;
 	justify-content: space-between;
 }
 
-.content-wrapper {
+.contentWrapper {
 	display: flex;
 	flex-direction: column;
 }
@@ -51,41 +51,40 @@ h3 {
 	text-transform: uppercase;
 }
 
-p.current-date {
+p.currentDate {
 	font-family: "Roboto";
 	color: white;
 	font-weight: 100;
 	align-self: flex-end;
-	margin-right: 20px;
-	margin-top: 20px;
+	margin: 20px 20px 0 0;
 }
 
 p {
 	font-family: "Playfair Display";
 }
 
-p.content-paragraph {
+p.contentParagraph {
 	max-width: 800px;
 }
 
-p.like-paragraph {
+p.likeParagraph {
 	font-family: "Roboto";
 	text-align: center;
 	margin-top: 2px;
 }
 
-p.author-name {
+p.authorName {
 	font-family: "Roboto";
 	text-align: center;
 	font-weight: bold;
 }
 
-.nav-paragraph {
+.navParagraph {
 	font-family: "Roboto";
 	color: white;
 }
 
-.published-paragraph {
+.publishedParagraph {
 	font-family: "Roboto";
 	font-weight: 300;
 	font-size: 12px;
@@ -103,7 +102,7 @@ p.author-name {
 	height: 50px;
 }
 
-.author-image {
+.authorImage {
 	object-fit: cover;
 	border-radius: 100%;
 }
@@ -128,17 +127,17 @@ p.author-name {
 		border-bottom: 1px solid black;
 	}
 
-	.article-wrapper {
+	.articleWrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.nav-paragraph {
+	.navParagraph {
 		font-weight: 300;
 	}
 
-	.article-image {
+	.articleImage {
 		width: 100%;
 		height: auto;
 	}
@@ -148,12 +147,11 @@ p.author-name {
 		height: auto;
 	}
 
-	.author-name {
-		margin-bottom: 0;
-		margin-top: 50px;
+	.authorName {
+		margin: 50px 0 0 0;
 	}
 
-	.author-image {
+	.authorImage {
 		width: 80px;
 		height: 80px;
 	}
@@ -169,7 +167,7 @@ p.author-name {
 		align-items: center;
 	}
 
-	.nav-paragraph {
+	.navParagraph {
 		font-weight: 300;
 	}
 
@@ -178,14 +176,14 @@ p.author-name {
 		border-bottom: 1px solid black;
 	}
 
-	.article-wrapper {
+	.articleWrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 	}
 
-	.article-image {
+	.articleImage {
 		width: 90%;
 		height: auto;
 	}
@@ -195,12 +193,11 @@ p.author-name {
 		height: auto;
 	}
 
-	.author-name {
-		margin-bottom: 0;
-		margin-top: 50px;
+	.authorName {
+		margin: 50px 0 0 0;
 	}
 
-	.author-image {
+	.authorImage {
 		width: 80px;
 		height: 80px;
 	}
@@ -215,7 +212,7 @@ p.author-name {
 		align-items: center;
 	}
 
-	.nav-paragraph {
+	.navParagraph {
 		font-weight: 300;
 	}
 
@@ -224,14 +221,14 @@ p.author-name {
 		border-bottom: 1px solid black;
 	}
 
-	.article-wrapper {
+	.articleWrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 	}
 
-	.article-image {
+	.articleImage {
 		width: 80%;
 		height: auto;
 	}
@@ -241,12 +238,11 @@ p.author-name {
 		height: auto;
 	}
 
-	.author-name {
-		margin-bottom: 0;
-		margin-top: 50px;
+	.authorName {
+		margin: 50px 0 0 0;
 	}
 
-	.author-image {
+	.authorImage {
 		width: 80px;
 		height: 80px;
 	}
@@ -261,7 +257,7 @@ p.author-name {
 		align-items: center;
 	}
 
-	.nav-paragraph {
+	.navParagraph {
 		font-weight: 300;
 	}
 
@@ -270,14 +266,14 @@ p.author-name {
 		border-bottom: 1px solid black;
 	}
 
-	.article-wrapper {
+	.articleWrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 	}
 
-	.article-image {
+	.articleImage {
 		width: 80%;
 		height: auto;
 	}
@@ -287,12 +283,11 @@ p.author-name {
 		height: auto;
 	}
 
-	.author-name {
-		margin-bottom: 0;
-		margin-top: 50px;
+	.authorName {
+		margin: 50px 0 0 0;
 	}
 
-	.author-image {
+	.authorImage {
 		width: 90px;
 		height: 90px;
 	}
@@ -307,7 +302,7 @@ p.author-name {
 		align-items: center;
 	}
 
-	.nav-paragraph {
+	.navParagraph {
 		font-weight: 300;
 	}
 
@@ -316,14 +311,14 @@ p.author-name {
 		border-bottom: 1px solid black;
 	}
 
-	.article-wrapper {
+	.articleWrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 	}
 
-	.article-image {
+	.articleImage {
 		width: 80%;
 		height: auto;
 	}
@@ -333,12 +328,11 @@ p.author-name {
 		height: auto;
 	}
 
-	.author-name {
-		margin-bottom: 0;
-		margin-top: 50px;
+	.authorName {
+		margin: 50px 0 0 0;
 	}
 
-	.author-image {
+	.authorImage {
 		width: 100px;
 		height: 100px;
 	}
