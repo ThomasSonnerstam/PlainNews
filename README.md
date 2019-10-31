@@ -37,6 +37,12 @@ This is how the website looks on desktop and on mobile phone.
 
 <img src="https://i.imgur.com/mIgaQqX.png" width=50%/>
 
+
+## **TESTERS**
+
+- [Andreas Lindberg](https://github.com/oaflindberg)
+- [Oskar Joss](https://github.com/OskarJoss)
+
 ## **CODE REVIEW**
 
 - ~~functions.php - you should add PHP DocBlocker to each function. To use it, type /** on the line above the function.~~
